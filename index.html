@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This portfolio belongs to Edgar Sabido.">
+  <title>Edgar Sabido Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#about" class="logo"><span>Edgar Sabido</span></a>
+    <ul class="nav-links">
+      <li>
+        <a href="#about"><b>About</b></a>
+      </li>
+      <li>
+        <a href="#projects"><b>Projects</b></a>
+      </li>
+      <li id="nav-technologies">
+        <a href="#technologies"><b>Technologies</b></a>
+      </li>
+      <li>
+        <a href="#contact"><b>Contact</b></a>
+      </li>
+      <li>
+        <label class="switch" for="toggle-dark-mode">.
+      <input type="checkbox" id="toggle-dark-mode">
+      <span class="slider round"></span>
+    </label>
+      </li>
+    </ul>
+
+    <button class="visit-btn" id="github_btn"><b>Visit Github</b></button>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="img/my_photo.webp" alt="Edgar Sabido Cortés">
+      <div class="info-box">
+        <div class="text">
+          <h3>Hi, I'm</h3>
+          <h1>Edgar Sabido</h1>
+          <span>Web & Game Developer</span>
+        </div>
+
+        <div class="btn-group">
+          <div class="btn">Download CV</div>
+          <div class="btn">Contact</div>
+        </div>
+
+        <div class="socials">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-info">
+      <div class="grid">
+        <div class="grid-card" data-target="web-development-projects">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>Web Development</span>
+          <h3>3 recent projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+
+        <div class="grid-card" data-target="game-development-projects">
+          <i class="fa-solid fa-gamepad"></i>
+          <span>Game Development</span>
+          <h3>2 recent projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+
+        <div class="grid-card" data-target="ai-projects">
+          <i class="fa-solid fa-brain"></i>
+          <span>Artificial Intelligence</span>
+          <h3>1 recent project</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden-grid" id="web-development-projects">
+      </br>
+      <span class="hidden-text-header">Web Development Recent Projects</span>
+      <div class="grid">
+        <div class="hidden-grid-card">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>Web Development</span>
+          <h3>n projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+
+        <div class="hidden-grid-card">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>Web Development</span>
+          <h3>n projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+
+        <div class="hidden-grid-card">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>Web Development</span>
+          <h3>n projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+      </div>
+    </div>
+    <div class="hidden-grid" id="game-development-projects">
+      </br>
+      <span class="hidden-text-header">Game Development Recent Projects</span>
+      <div class="grid">
+        <div class="hidden-grid-card" data-url="https://youtu.be/OmqP14lsZ5g">
+          <i class="fa-solid fa-gamepad"></i>
+          <span>The Woods</span>
+          <h3>Game Demo</h3>
+          <p>3D game demo developed as a project for Computer Graphics subject using Godot 4.3 and GDScript.</p>
+        </div>
+
+        <div class="hidden-grid-card" data-url="https://github.com/EdgarSabidoC/Servicio_Social">
+          <i class="fa-solid fa-gamepad"></i>
+          <span>Pizzamania</span>
+          <h3>Educational Game</h3>
+          <p>Game developed for Social Service as part of the project "Juega, Aprende y Diviértete con Linux" at Universidad Autónoma de Yucatán (UADY) using Godot 4.2.2 and GDScript.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden-grid" id="ai-projects">
+      </br>
+      <span class="hidden-text-header">Artificial Intelligence Recent Projects</span>
+      <div class="grid">
+        <div class="hidden-grid-card">
+          <i class="fa-solid fa-brain"></i>
+          <span>Artificial Intelligence</span>
+          <h3>n projects</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, labore?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="technologies" class="technologies">
+    <h2 class="section-title">Technologies</h2>
+
+    <div class="grid">
+      <div class="grid-card">
+        <i class="fa-brands fa-python"></i>
+        <span>Python</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-java"></i>
+        <span>Java</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-golang"></i>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-php"></i>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-node"></i>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-angular"></i>
+        <span>Angular</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-bootstrap"></i>
+        <span>Bootstrap</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-docker"></i>
+        <span>Docker</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-git"></i>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-linux"></i>
+        <span>Linux</span>
+      </div>
+
+      <div class="grid-card">
+        <i class="fa-brands fa-windows"></i>
+        <span>Windows</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="input-box">
+      <div class="input">
+        <input type="text" placeholder="example@email.com">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="btn">Submit</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li id="footer-technologies"><a href="#technologies">Technologies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">© All Rights Reserved | Edgar Sabido</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
