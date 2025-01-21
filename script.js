@@ -1,7 +1,6 @@
 const githubLink = 'https://github.com/EdgarSabidoC';
 const linkedInLink = 'https://www.linkedin.com/in/edgar-sabido-cortes/?locale=en_US';
 const youtubeLink = 'https://www.youtube.com/@edgarsabidoc';
-const email = 'edgar.sabido.c@gmail.com';
 
 const toggleSwitch = document.getElementById('toggle-dark-mode');
 const visitGithub = document.getElementById('github_btn');
