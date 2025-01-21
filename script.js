@@ -1,6 +1,7 @@
 const githubLink = 'https://github.com/EdgarSabidoC';
 const linkedInLink = 'https://www.linkedin.com/in/edgar-sabido-cortes/?locale=en_US';
 const youtubeLink = 'https://www.youtube.com/@edgarsabidoc';
+const email = 'edgar.sabido.c@gmail.com';
 
 const toggleSwitch = document.getElementById('toggle-dark-mode');
 const visitGithub = document.getElementById('github_btn');
@@ -90,6 +91,15 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleSwitch.checked = false; // Asegura que el interruptor esté en modo claro
   }
 });
+
+// Handle Contact Me field:
+function submitForm() {
+    const subject = "Web development inquiry";
+    const body = "Hello, ";
+
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 
 // Handle GitHub button and icons
 githubIcons.forEach(icon => icon.addEventListener('click', () => window.location.href = githubLink));
